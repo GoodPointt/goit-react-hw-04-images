@@ -66,6 +66,7 @@ export const ImageGallery = ({
     } else {
       toast.success(`We found ${totalHits} ${searchQuery}s for you`);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [totalHits]);
 
   useEffect(() => {
